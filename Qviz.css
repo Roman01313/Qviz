@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body{
+    background: linear-gradient( rgb(127, 126, 201), rgb(219, 184, 156));
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35%;
+    scale: 2;
+
+}
+
+
+.numbers{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50%;
+    
+
+}
+
+.el{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 4%;
+    margin: 2.3%;
+    background-color: rgb(241, 200, 124);
+    border-color: rgba(224, 181, 181, 0.829);
+    border-radius: 10%;
+}
+
+.exam{
+    display: none;
+    justify-content: center;
+    scale: 4.5;
+    padding-top: 10%;
+
+}
+
+.record_div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.input_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    padding-top: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.submit_input{
+    display: flex;
+    scale: 1.5;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    justify-content: left;
+    
+}
+.nav-item{
+    padding-left: 5%;
+    margin-right: 10%;
+}
+
+
+
+.start_btn{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.123);
+    border-radius: 20%;
+}
